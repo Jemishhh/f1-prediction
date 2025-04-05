@@ -1,0 +1,16 @@
+# Environment
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Cache and logs
+f1_cache/*
+f1_cache/fastf1_http_cache.sqlite

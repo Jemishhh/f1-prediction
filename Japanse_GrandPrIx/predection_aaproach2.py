@@ -97,7 +97,7 @@ def load_historical_data():
 
 def get_weather_data():
     """Fetch Suzuka weather forecast"""
-    API_KEY = "7567028813d733a10acdac7f7472301b"
+    API_KEY = "your_api_token"
     url = f"https://api.openweathermap.org/data/2.5/forecast?q=Suzuka,jp&appid={API_KEY}&units=metric"
     
     try:
